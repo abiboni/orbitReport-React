@@ -5,6 +5,7 @@ import { useState } from "react";
 import satData from "./components/satData";
 
 // const satData = satData
+// imported useState and satData to access data
 
 function App() {
   const [sat, setSat] = useState(satData);
